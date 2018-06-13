@@ -8,7 +8,7 @@
 // serge
 #import "LoginViewController.h"
 #import <UMSocialCore/UMSocialCore.h>
-
+//Alain Serge
 @interface LoginViewController ()
 
 @end
