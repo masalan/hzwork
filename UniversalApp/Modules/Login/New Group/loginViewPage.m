@@ -12,7 +12,7 @@
 #import "ETColor.h"
 #import "ETConfig.h"
 #import "MBProgressHUD.h"
-
+// text editing
 @interface loginViewPage()<UITextFieldDelegate>
 @property(nonatomic, strong) UIImageView *wxIcons,*qqIcons; //背景图
 @property (weak, nonatomic) UIImageView *logoImgView;     // Logo背景图
