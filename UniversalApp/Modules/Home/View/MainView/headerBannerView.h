@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class headerBannerView;
+@protocol headerBannerViewDelegate <NSObject>
+@end
 
 @interface headerBannerView : UIView
-
+@property (weak, nonatomic) id<headerBannerViewDelegate>delegate;
 @end

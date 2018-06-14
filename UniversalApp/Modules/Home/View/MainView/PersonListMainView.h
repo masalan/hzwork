@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class PersonListMainView;
+
+@protocol PersonListMainDelegate <NSObject>
+
+@end
+
 
 @interface PersonListMainView : UIView
-
+@property (weak, nonatomic) id<PersonListMainDelegate>delegate;
 @end

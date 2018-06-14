@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Utliltes.h"
+@class  underBannerView;
+
+@protocol underBannerViewDelegate <NSObject>;
+@end
+
 
 @interface underBannerView : UIView
-
+@property (weak, nonatomic) id<underBannerViewDelegate> delegate;
 @end

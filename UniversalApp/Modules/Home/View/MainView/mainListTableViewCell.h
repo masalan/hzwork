@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@protocol mainListDelegate <NSObject>
+@end
 @interface mainListTableViewCell : UITableViewCell
-
+@property (weak,nonatomic)id<mainListDelegate>delegate;
 @end

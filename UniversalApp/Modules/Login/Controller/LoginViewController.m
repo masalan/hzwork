@@ -22,7 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
-
     [self.view addSubview:self.loginView];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
 }

@@ -185,6 +185,11 @@
 		29FEE77B1ECED1E200C81B60 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */; };
 		29FEE77C1ECED1E200C81B60 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */; };
 		4122163320D237BB00F73852 /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163220D237BB00F73852 /* PersonListViewController.m */; };
+		4122163620D23ADB00F73852 /* PersonListMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163520D23ADB00F73852 /* PersonListMainView.m */; };
+		4122163A20D23E7F00F73852 /* headerBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163920D23E7F00F73852 /* headerBannerView.m */; };
+		4122163D20D23E9F00F73852 /* underBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163C20D23E9F00F73852 /* underBannerView.m */; };
+		4122164020D2423D00F73852 /* mainFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163F20D2423D00F73852 /* mainFooterView.m */; };
+		4122164320D249DA00F73852 /* mainListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122164220D249DA00F73852 /* mainListTableViewCell.m */; };
 		412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42220D0ED3200786DE6 /* loginViewPage.m */; };
 		412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42620D0FD3300786DE6 /* LoginTextField.m */; };
 		412EB42B20D1013900786DE6 /* ETColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42A20D1013900786DE6 /* ETColor.m */; };
@@ -490,6 +495,16 @@
 		29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
 		4122163120D237BB00F73852 /* PersonListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
 		4122163220D237BB00F73852 /* PersonListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
+		4122163420D23ADB00F73852 /* PersonListMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonListMainView.h; sourceTree = "<group>"; };
+		4122163520D23ADB00F73852 /* PersonListMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonListMainView.m; sourceTree = "<group>"; };
+		4122163820D23E7F00F73852 /* headerBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headerBannerView.h; sourceTree = "<group>"; };
+		4122163920D23E7F00F73852 /* headerBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headerBannerView.m; sourceTree = "<group>"; };
+		4122163B20D23E9F00F73852 /* underBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = underBannerView.h; sourceTree = "<group>"; };
+		4122163C20D23E9F00F73852 /* underBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = underBannerView.m; sourceTree = "<group>"; };
+		4122163E20D2423D00F73852 /* mainFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainFooterView.h; sourceTree = "<group>"; };
+		4122163F20D2423D00F73852 /* mainFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainFooterView.m; sourceTree = "<group>"; };
+		4122164120D249DA00F73852 /* mainListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainListTableViewCell.h; sourceTree = "<group>"; };
+		4122164220D249DA00F73852 /* mainListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainListTableViewCell.m; sourceTree = "<group>"; };
 		412EB42120D0ED3200786DE6 /* loginViewPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewPage.h; sourceTree = "<group>"; };
 		412EB42220D0ED3200786DE6 /* loginViewPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewPage.m; sourceTree = "<group>"; };
 		412EB42520D0FD3300786DE6 /* LoginTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
@@ -1130,6 +1145,7 @@
 				296F9A181F04F18400909CDB /* WaterFallCollectionViewCell.m */,
 				296F9A391F0504C900909CDB /* WaterFlowLayout.h */,
 				296F9A3A1F0504C900909CDB /* WaterFlowLayout.m */,
+				4122163720D23AE900F73852 /* MainView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1517,6 +1533,23 @@
 				29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4122163720D23AE900F73852 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				4122163420D23ADB00F73852 /* PersonListMainView.h */,
+				4122163520D23ADB00F73852 /* PersonListMainView.m */,
+				4122163820D23E7F00F73852 /* headerBannerView.h */,
+				4122163920D23E7F00F73852 /* headerBannerView.m */,
+				4122163B20D23E9F00F73852 /* underBannerView.h */,
+				4122163C20D23E9F00F73852 /* underBannerView.m */,
+				4122163E20D2423D00F73852 /* mainFooterView.h */,
+				4122163F20D2423D00F73852 /* mainFooterView.m */,
+				4122164120D249DA00F73852 /* mainListTableViewCell.h */,
+				4122164220D249DA00F73852 /* mainListTableViewCell.m */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		412EB42420D0ED4500786DE6 /* ViewPage */ = {
@@ -1916,6 +1949,7 @@
 				290A98091F4ABCF6006BF882 /* XZPickView.m in Sources */,
 				29530FAE1F60F10700D24E05 /* CardView.m in Sources */,
 				412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */,
+				4122163A20D23E7F00F73852 /* headerBannerView.m in Sources */,
 				290A981E1F4ABEB9006BF882 /* BaseTableViewCell.m in Sources */,
 				293D46011ECDA56A007C64A9 /* MainTabBarController.m in Sources */,
 				290DE9261ED19B7F00A45FF6 /* AppManager.m in Sources */,
@@ -1924,6 +1958,7 @@
 				290A97DD1F4AB24A006BF882 /* TagsViewController.m in Sources */,
 				296DEA711F5D50D100C6FD00 /* TADotView.m in Sources */,
 				41CF7B9C20D2084F0050F486 /* BEMCheckBoxGroup.m in Sources */,
+				4122163620D23ADB00F73852 /* PersonListMainView.m in Sources */,
 				29629EF11F78E669002CFCBD /* XLJSHandler.m in Sources */,
 				29AD6C6B1ED41E2100B0879C /* UserManager.m in Sources */,
 				29AD6C671ED41BA100B0879C /* AdPageView.m in Sources */,
@@ -1942,12 +1977,15 @@
 				293D45F51ECDA453007C64A9 /* RootViewController.m in Sources */,
 				296F9A3E1F050AA900909CDB /* SecondViewController.m in Sources */,
 				296F9A3B1F0504C900909CDB /* WaterFlowLayout.m in Sources */,
+				4122164320D249DA00F73852 /* mainListTableViewCell.m in Sources */,
 				296F9A541F0516A700909CDB /* UICollectionView+IndexPath.m in Sources */,
 				293D46081ECDAEAD007C64A9 /* HomeViewController.m in Sources */,
 				412EB42B20D1013900786DE6 /* ETColor.m in Sources */,
+				4122163D20D23E9F00F73852 /* underBannerView.m in Sources */,
 				290A981D1F4ABEB9006BF882 /* BaseRequestAPI.m in Sources */,
 				41CF7B9A20D2084F0050F486 /* BEMAnimationManager.m in Sources */,
 				29280E881F063EE700BF52D9 /* XYTransition.m in Sources */,
+				4122164020D2423D00F73852 /* mainFooterView.m in Sources */,
 				290A97FF1F4ABC12006BF882 /* NickNameLbel.m in Sources */,
 				290A98051F4ABCD9006BF882 /* IAPManager.m in Sources */,
 				290A981F1F4ABEB9006BF882 /* HSBaseCellModel.m in Sources */,

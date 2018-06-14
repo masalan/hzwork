@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface mainFooterView : UIView
-
+@class mainFooterView;
+@protocol mainFooterViewDelegate <NSObject>;
+- (void)deliveryView:(mainFooterView *)view ofRowNumber:(NSIndexPath *)indexPath;
+@end
+@interface mainFooterView : UITableView
+@property (weak, nonatomic) id<mainFooterViewDelegate>p_delegate;
 @end
