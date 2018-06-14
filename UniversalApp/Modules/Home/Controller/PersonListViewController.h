@@ -1,16 +1,13 @@
 //
 //  PersonListViewController.h
-//  MiAiApp
+//  UniversalApp
 //
-//  Created by 徐阳 on 2017/7/14.
-//  Copyright © 2017年 徐阳. All rights reserved.
+//  Created by 诺虹科技 on 14/06/2018.
+//  Copyright © 2018 Alain Serge. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import <UIKit/UIKit.h>
 
-/**
- 瀑布流列表 带转场动画
- */
-@interface PersonListViewController : RootViewController
+@interface PersonListViewController : UIViewController
 
 @end
