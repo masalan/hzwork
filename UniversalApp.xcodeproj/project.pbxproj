@@ -41,7 +41,6 @@
 		290A98231F4AC153006BF882 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290A98221F4AC153006BF882 /* StoreKit.framework */; };
 		290DE9231ED19B6B00A45FF6 /* AESCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = 290DE9221ED19B6B00A45FF6 /* AESCipher.m */; };
 		290DE9261ED19B7F00A45FF6 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 290DE9251ED19B7F00A45FF6 /* AppManager.m */; };
-		2914E4871F20A45C001C01DB /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2914E4861F20A45C001C01DB /* PersonListViewController.m */; };
 		2914E48A1F20A462001C01DB /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2914E4891F20A462001C01DB /* PersonModel.m */; };
 		2914E48D1F20A471001C01DB /* PersonListLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2914E48C1F20A471001C01DB /* PersonListLogic.m */; };
 		2914E4901F20A4D1001C01DB /* PersonListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2914E48F1F20A4D1001C01DB /* PersonListCollectionViewCell.m */; };
@@ -185,6 +184,7 @@
 		29FEE7681ECEC27900C81B60 /* MBProgressHUD+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FEE7671ECEC27900C81B60 /* MBProgressHUD+XY.m */; };
 		29FEE77B1ECED1E200C81B60 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */; };
 		29FEE77C1ECED1E200C81B60 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */; };
+		4122163320D237BB00F73852 /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163220D237BB00F73852 /* PersonListViewController.m */; };
 		412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42220D0ED3200786DE6 /* loginViewPage.m */; };
 		412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42620D0FD3300786DE6 /* LoginTextField.m */; };
 		412EB42B20D1013900786DE6 /* ETColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42A20D1013900786DE6 /* ETColor.m */; };
@@ -269,8 +269,6 @@
 		290DE9221ED19B6B00A45FF6 /* AESCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipher.m; sourceTree = "<group>"; };
 		290DE9241ED19B7F00A45FF6 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
 		290DE9251ED19B7F00A45FF6 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
-		2914E4851F20A45C001C01DB /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
-		2914E4861F20A45C001C01DB /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
 		2914E4881F20A462001C01DB /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
 		2914E4891F20A462001C01DB /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
 		2914E48B1F20A471001C01DB /* PersonListLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListLogic.h; sourceTree = "<group>"; };
@@ -490,6 +488,8 @@
 		29FEE7671ECEC27900C81B60 /* MBProgressHUD+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XY.m"; sourceTree = "<group>"; };
 		29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@2x.png"; sourceTree = "<group>"; };
 		29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
+		4122163120D237BB00F73852 /* PersonListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
+		4122163220D237BB00F73852 /* PersonListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
 		412EB42120D0ED3200786DE6 /* loginViewPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewPage.h; sourceTree = "<group>"; };
 		412EB42220D0ED3200786DE6 /* loginViewPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewPage.m; sourceTree = "<group>"; };
 		412EB42520D0FD3300786DE6 /* LoginTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
@@ -845,8 +845,8 @@
 				296F99F01F04F05000909CDB /* WaterFallListViewController.m */,
 				296F9A3C1F050AA900909CDB /* SecondViewController.h */,
 				296F9A3D1F050AA900909CDB /* SecondViewController.m */,
-				2914E4851F20A45C001C01DB /* PersonListViewController.h */,
-				2914E4861F20A45C001C01DB /* PersonListViewController.m */,
+				4122163120D237BB00F73852 /* PersonListViewController.h */,
+				4122163220D237BB00F73852 /* PersonListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1918,7 +1918,6 @@
 				412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */,
 				290A981E1F4ABEB9006BF882 /* BaseTableViewCell.m in Sources */,
 				293D46011ECDA56A007C64A9 /* MainTabBarController.m in Sources */,
-				2914E4871F20A45C001C01DB /* PersonListViewController.m in Sources */,
 				290DE9261ED19B7F00A45FF6 /* AppManager.m in Sources */,
 				2914E4931F20A4F8001C01DB /* ProfileViewController.m in Sources */,
 				2973A81A1EDEE6BE002751F0 /* GameInfo.m in Sources */,
@@ -1971,6 +1970,7 @@
 				293D46111ECDAEED007C64A9 /* MineViewController.m in Sources */,
 				29530FB01F60F10700D24E05 /* YSLDraggableCardContainer.m in Sources */,
 				29FEE7681ECEC27900C81B60 /* MBProgressHUD+XY.m in Sources */,
+				4122163320D237BB00F73852 /* PersonListViewController.m in Sources */,
 				2917D2171EE02F9C00E76185 /* ShareManager.m in Sources */,
 				29AD6C5C1ED3E28800B0879C /* PPNetworkHelper.m in Sources */,
 				29530FAF1F60F10700D24E05 /* YSLCardView.m in Sources */,

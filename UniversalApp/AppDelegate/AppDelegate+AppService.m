@@ -101,14 +101,15 @@
     }else {//登陆失败加载登陆页面控制器
         
         self.mainTabBar = nil;
-        RootNavigationController *loginNavi =[[RootNavigationController alloc] initWithRootViewController:[LoginViewController new]];
-        
+        //RootNavigationController *loginNavi =[[RootNavigationController alloc] initWithRootViewController:[LoginViewController new]];   // Alan
+        KPostNotification(KNotificationLoginStateChange, @YES);  // Alan
+
         CATransition *anima = [CATransition animation];
         anima.type = @"fade";//设置动画的类型
         anima.subtype = kCATransitionFromRight; //设置动画的方向
         anima.duration = 0.3f;
         
-        self.window.rootViewController = loginNavi;
+      //  self.window.rootViewController = loginNavi;  // Alan
         
         [kAppWindow.layer addAnimation:anima forKey:@"revealAnimation"];
         
