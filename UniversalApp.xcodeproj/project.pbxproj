@@ -185,6 +185,12 @@
 		29FEE7681ECEC27900C81B60 /* MBProgressHUD+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FEE7671ECEC27900C81B60 /* MBProgressHUD+XY.m */; };
 		29FEE77B1ECED1E200C81B60 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */; };
 		29FEE77C1ECED1E200C81B60 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */; };
+		412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42220D0ED3200786DE6 /* loginViewPage.m */; };
+		412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42620D0FD3300786DE6 /* LoginTextField.m */; };
+		412EB42B20D1013900786DE6 /* ETColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42A20D1013900786DE6 /* ETColor.m */; };
+		412EB42F20D102D300786DE6 /* ETConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42D20D102D200786DE6 /* ETConfig.m */; };
+		412EB43C20D1177B00786DE6 /* ETRegularExpressionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */; };
+		412EB44020D121E700786DE6 /* ETNavStyleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */; };
 		5BC8C50C0BEF57AA0780D5DC /* libPods-UniversalApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E884624664B432D4FE5044F /* libPods-UniversalApp.a */; };
 /* End PBXBuildFile section */
 
@@ -479,6 +485,18 @@
 		29FEE7671ECEC27900C81B60 /* MBProgressHUD+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XY.m"; sourceTree = "<group>"; };
 		29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@2x.png"; sourceTree = "<group>"; };
 		29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
+		412EB42120D0ED3200786DE6 /* loginViewPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewPage.h; sourceTree = "<group>"; };
+		412EB42220D0ED3200786DE6 /* loginViewPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewPage.m; sourceTree = "<group>"; };
+		412EB42520D0FD3300786DE6 /* LoginTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
+		412EB42620D0FD3300786DE6 /* LoginTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTextField.m; sourceTree = "<group>"; };
+		412EB42920D1013900786DE6 /* ETColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETColor.h; sourceTree = "<group>"; };
+		412EB42A20D1013900786DE6 /* ETColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETColor.m; sourceTree = "<group>"; };
+		412EB42D20D102D200786DE6 /* ETConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETConfig.m; sourceTree = "<group>"; };
+		412EB42E20D102D200786DE6 /* ETConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETConfig.h; sourceTree = "<group>"; };
+		412EB43A20D1177B00786DE6 /* ETRegularExpressionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRegularExpressionHelper.h; sourceTree = "<group>"; };
+		412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRegularExpressionHelper.m; sourceTree = "<group>"; };
+		412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavStyleHelper.m; sourceTree = "<group>"; };
+		412EB43F20D121E700786DE6 /* ETNavStyleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavStyleHelper.h; sourceTree = "<group>"; };
 		9E884624664B432D4FE5044F /* libPods-UniversalApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UniversalApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AB222BA7ACF202B5B1330 /* Pods-UniversalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -749,6 +767,9 @@
 		293D45AD1ECD6926007C64A9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				412EB43D20D121E700786DE6 /* ETNavStyleHelper(设置导航栏) */,
+				412EB43920D1177B00786DE6 /* ETRegularExpressionHelper(正则表达式) */,
+				412EB42C20D102D200786DE6 /* Config */,
 				296DEA5F1F5D50D100C6FD00 /* SDCycleScrollView */,
 				29D3C0041F4D11A200FD3914 /* TagsView */,
 				290A980A1F4ABD00006BF882 /* SandBoxHelper */,
@@ -761,6 +782,9 @@
 				290DE9201ED19B6B00A45FF6 /* AES */,
 				29FEE7651ECEC25C00C81B60 /* MBProgressHUD */,
 				2917D1FC1EDFC89A00E76185 /* Other */,
+				412EB42820D1011400786DE6 /* TextField */,
+				412EB42920D1013900786DE6 /* ETColor.h */,
+				412EB42A20D1013900786DE6 /* ETColor.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -887,6 +911,7 @@
 			children = (
 				293D45ED1ECDA36E007C64A9 /* Controller */,
 				296F9A121F04F15B00909CDB /* Logic */,
+				412EB42420D0ED4500786DE6 /* ViewPage */,
 			);
 			name = "Login(登录相关)";
 			path = Login;
@@ -1475,6 +1500,53 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		412EB42420D0ED4500786DE6 /* ViewPage */ = {
+			isa = PBXGroup;
+			children = (
+				412EB42120D0ED3200786DE6 /* loginViewPage.h */,
+				412EB42220D0ED3200786DE6 /* loginViewPage.m */,
+			);
+			name = ViewPage;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		412EB42820D1011400786DE6 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				412EB42520D0FD3300786DE6 /* LoginTextField.h */,
+				412EB42620D0FD3300786DE6 /* LoginTextField.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		412EB42C20D102D200786DE6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				412EB42D20D102D200786DE6 /* ETConfig.m */,
+				412EB42E20D102D200786DE6 /* ETConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		412EB43920D1177B00786DE6 /* ETRegularExpressionHelper(正则表达式) */ = {
+			isa = PBXGroup;
+			children = (
+				412EB43A20D1177B00786DE6 /* ETRegularExpressionHelper.h */,
+				412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */,
+			);
+			name = "ETRegularExpressionHelper(正则表达式)";
+			path = "UniversalApp/ETRegularExpressionHelper(正则表达式)";
+			sourceTree = SOURCE_ROOT;
+		};
+		412EB43D20D121E700786DE6 /* ETNavStyleHelper(设置导航栏) */ = {
+			isa = PBXGroup;
+			children = (
+				412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */,
+				412EB43F20D121E700786DE6 /* ETNavStyleHelper.h */,
+			);
+			path = "ETNavStyleHelper(设置导航栏)";
+			sourceTree = "<group>";
+		};
 		6C3D66AC810B3ABDE56945D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1554,7 +1626,7 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "徐阳";
+				ORGANIZATIONNAME = "Alain Serge";
 				TargetAttributes = {
 					296F9EB71ECC64CE0063A255 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -1779,9 +1851,11 @@
 				29AD6C621ED3E4D600B0879C /* AppDelegate+AppService.m in Sources */,
 				296DEA701F5D50D100C6FD00 /* TAAnimatedDotView.m in Sources */,
 				293D46051ECDAA02007C64A9 /* RootNavigationController.m in Sources */,
+				412EB42F20D102D300786DE6 /* ETConfig.m in Sources */,
 				29AD6C5B1ED3E28800B0879C /* PPNetworkCache.m in Sources */,
 				290A97DC1F4AB24A006BF882 /* EmitterViewController.m in Sources */,
 				296F9A1B1F04F18400909CDB /* WaterFallCollectionViewCell.m in Sources */,
+				412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */,
 				296F72C11F9761C800E5EAB1 /* NativeCallJSVC.m in Sources */,
 				2914E4901F20A4D1001C01DB /* PersonListCollectionViewCell.m in Sources */,
 				290A97DE1F4AB24A006BF882 /* ToolDemoViewController.m in Sources */,
@@ -1789,6 +1863,7 @@
 				296F99F11F04F05000909CDB /* WaterFallListViewController.m in Sources */,
 				290A98091F4ABCF6006BF882 /* XZPickView.m in Sources */,
 				29530FAE1F60F10700D24E05 /* CardView.m in Sources */,
+				412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */,
 				290A981E1F4ABEB9006BF882 /* BaseTableViewCell.m in Sources */,
 				293D46011ECDA56A007C64A9 /* MainTabBarController.m in Sources */,
 				2914E4871F20A45C001C01DB /* PersonListViewController.m in Sources */,
@@ -1808,6 +1883,7 @@
 				2917D2141EE02CF100E76185 /* UIButton+XYButton.m in Sources */,
 				29CF332D1F14B5EA00DB7507 /* MsgLogic.m in Sources */,
 				2914E48A1F20A462001C01DB /* PersonModel.m in Sources */,
+				412EB43C20D1177B00786DE6 /* ETRegularExpressionHelper.m in Sources */,
 				29CD2C6E1F30229B00A0F5DC /* CellModel.m in Sources */,
 				2924783E1ED6857300BB097A /* AppDelegate+PushService.m in Sources */,
 				2940C5351F0A3EAB008BC29F /* WaterFallListLogic.m in Sources */,
@@ -1816,6 +1892,7 @@
 				296F9A3B1F0504C900909CDB /* WaterFlowLayout.m in Sources */,
 				296F9A541F0516A700909CDB /* UICollectionView+IndexPath.m in Sources */,
 				293D46081ECDAEAD007C64A9 /* HomeViewController.m in Sources */,
+				412EB42B20D1013900786DE6 /* ETColor.m in Sources */,
 				290A981D1F4ABEB9006BF882 /* BaseRequestAPI.m in Sources */,
 				29280E881F063EE700BF52D9 /* XYTransition.m in Sources */,
 				290A97FF1F4ABC12006BF882 /* NickNameLbel.m in Sources */,
@@ -1826,6 +1903,7 @@
 				29AD6C4D1ED3D51200B0879C /* OpenUDID.m in Sources */,
 				290A97FE1F4ABC12006BF882 /* MineHeaderView.m in Sources */,
 				296DEA721F5D50D100C6FD00 /* TAPageControl.m in Sources */,
+				412EB44020D121E700786DE6 /* ETNavStyleHelper.m in Sources */,
 				29530FA61F60F0E800D24E05 /* DraggingCardViewController.m in Sources */,
 				293D460E1ECDAEDC007C64A9 /* MsgViewController.m in Sources */,
 				29AD6C711ED41ED200B0879C /* UserInfo.m in Sources */,

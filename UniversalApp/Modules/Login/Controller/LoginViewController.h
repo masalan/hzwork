@@ -7,5 +7,6 @@
 //
 
 @interface LoginViewController : RootViewController
+@property (strong, nonatomic) UIImageView *imgView;
 
 @end

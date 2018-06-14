@@ -15,7 +15,7 @@
 #import "HomeViewController.h"
 #import "ProfileViewController.h"
 #import "PersonModel.h"
-// hello alan
+// hello friend
 #define itemWidthHeight ((kScreenWidth-30)/2)
 
 @interface PersonListViewController ()
@@ -27,6 +27,7 @@
 
 @implementation PersonListViewController
 
+/*****
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
@@ -38,20 +39,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 @end
+*****/
 
-
-/****
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.isShowLiftBack = NO;//每个根视图需要设置该属性为NO，否则会出现导航栏异常
@@ -215,4 +206,3 @@
 
 @end
  
- ****/

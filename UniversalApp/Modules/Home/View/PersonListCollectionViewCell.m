@@ -33,6 +33,8 @@
         _imgView.backgroundColor=KWhiteColor;
         //        _imgView.autoresizingMask=UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleBottomMargin;
         [self addSubview:_imgView];
+        
+        
         _lblHobby=[[UILabel alloc]initWithFrame:CGRectMake(10, _imgView.bottom, frame.size.width-20, 20)];
         _lblHobby.numberOfLines=0;
         _lblHobby.textColor=CFontColor1;

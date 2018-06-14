@@ -40,7 +40,7 @@
         if (_page == 0) {
             [_dataArray removeAllObjects];
         }
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             
             PersonModel *model = [PersonModel new];
             model.picture = _imgArray[arc4random()%_imgArray.count];
