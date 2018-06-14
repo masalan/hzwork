@@ -15,7 +15,7 @@
 #import "HomeViewController.h"
 #import "ProfileViewController.h"
 #import "PersonModel.h"
-// hello friend
+// hello alan
 #define itemWidthHeight ((kScreenWidth-30)/2)
 
 @interface PersonListViewController ()
