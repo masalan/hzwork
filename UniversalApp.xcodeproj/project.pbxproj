@@ -191,6 +191,11 @@
 		412EB42F20D102D300786DE6 /* ETConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42D20D102D200786DE6 /* ETConfig.m */; };
 		412EB43C20D1177B00786DE6 /* ETRegularExpressionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */; };
 		412EB44020D121E700786DE6 /* ETNavStyleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */; };
+		41CF7B8E20D206FD0050F486 /* DecoServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */; };
+		41CF7B9A20D2084F0050F486 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9320D2084F0050F486 /* BEMAnimationManager.m */; };
+		41CF7B9B20D2084F0050F486 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9420D2084F0050F486 /* BEMPathManager.m */; };
+		41CF7B9C20D2084F0050F486 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9520D2084F0050F486 /* BEMCheckBoxGroup.m */; };
+		41CF7B9D20D2084F0050F486 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9720D2084F0050F486 /* BEMCheckBox.m */; };
 		5BC8C50C0BEF57AA0780D5DC /* libPods-UniversalApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E884624664B432D4FE5044F /* libPods-UniversalApp.a */; };
 /* End PBXBuildFile section */
 
@@ -497,6 +502,17 @@
 		412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRegularExpressionHelper.m; sourceTree = "<group>"; };
 		412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavStyleHelper.m; sourceTree = "<group>"; };
 		412EB43F20D121E700786DE6 /* ETNavStyleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavStyleHelper.h; sourceTree = "<group>"; };
+		41CF7B8C20D206FD0050F486 /* DecoServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoServicesViewController.h; sourceTree = "<group>"; };
+		41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoServicesViewController.m; sourceTree = "<group>"; };
+		41CF7B9220D2084F0050F486 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		41CF7B9320D2084F0050F486 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		41CF7B9420D2084F0050F486 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		41CF7B9520D2084F0050F486 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		41CF7B9620D2084F0050F486 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		41CF7B9720D2084F0050F486 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		41CF7B9820D2084F0050F486 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		41CF7B9920D2084F0050F486 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		41CF7B9E20D208C10050F486 /* Utliltes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utliltes.h; sourceTree = "<group>"; };
 		9E884624664B432D4FE5044F /* libPods-UniversalApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UniversalApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AB222BA7ACF202B5B1330 /* Pods-UniversalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -736,6 +752,7 @@
 				293D45B41ECD69D8007C64A9 /* Mine(我的页) */,
 				293D45EC1ECDA36E007C64A9 /* Login(登录相关) */,
 				290A97C71F4AB24A006BF882 /* TestModule(demo模块) */,
+				41CF7B8F20D207100050F486 /* DecoService(装修服务) */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -767,6 +784,7 @@
 		293D45AD1ECD6926007C64A9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				41CF7B9120D2084F0050F486 /* CheckBox */,
 				412EB43D20D121E700786DE6 /* ETNavStyleHelper(设置导航栏) */,
 				412EB43920D1177B00786DE6 /* ETRegularExpressionHelper(正则表达式) */,
 				412EB42C20D102D200786DE6 /* Config */,
@@ -785,6 +803,7 @@
 				412EB42820D1011400786DE6 /* TextField */,
 				412EB42920D1013900786DE6 /* ETColor.h */,
 				412EB42A20D1013900786DE6 /* ETColor.m */,
+				41CF7B9E20D208C10050F486 /* Utliltes.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1547,6 +1566,38 @@
 			path = "ETNavStyleHelper(设置导航栏)";
 			sourceTree = "<group>";
 		};
+		41CF7B8F20D207100050F486 /* DecoService(装修服务) */ = {
+			isa = PBXGroup;
+			children = (
+				41CF7B9020D2072A0050F486 /* Controller */,
+			);
+			path = "DecoService(装修服务)";
+			sourceTree = "<group>";
+		};
+		41CF7B9020D2072A0050F486 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41CF7B8C20D206FD0050F486 /* DecoServicesViewController.h */,
+				41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41CF7B9120D2084F0050F486 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				41CF7B9220D2084F0050F486 /* BEMCheckBox.h */,
+				41CF7B9320D2084F0050F486 /* BEMAnimationManager.m */,
+				41CF7B9420D2084F0050F486 /* BEMPathManager.m */,
+				41CF7B9520D2084F0050F486 /* BEMCheckBoxGroup.m */,
+				41CF7B9620D2084F0050F486 /* BEMAnimationManager.h */,
+				41CF7B9720D2084F0050F486 /* BEMCheckBox.m */,
+				41CF7B9820D2084F0050F486 /* BEMPathManager.h */,
+				41CF7B9920D2084F0050F486 /* BEMCheckBoxGroup.h */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
 		6C3D66AC810B3ABDE56945D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1847,6 +1898,7 @@
 				29AD6C631ED3E4D600B0879C /* AppDelegate.m in Sources */,
 				290471B81F98D9A80081CCA1 /* UITabBar+CustomBadge.m in Sources */,
 				29CF332A1F14B5CC00DB7507 /* MakeFriendsLogic.m in Sources */,
+				41CF7B9D20D2084F0050F486 /* BEMCheckBox.m in Sources */,
 				2917D1FF1EDFC89A00E76185 /* YYFPSLabel.m in Sources */,
 				29AD6C621ED3E4D600B0879C /* AppDelegate+AppService.m in Sources */,
 				296DEA701F5D50D100C6FD00 /* TAAnimatedDotView.m in Sources */,
@@ -1872,6 +1924,7 @@
 				2973A81A1EDEE6BE002751F0 /* GameInfo.m in Sources */,
 				290A97DD1F4AB24A006BF882 /* TagsViewController.m in Sources */,
 				296DEA711F5D50D100C6FD00 /* TADotView.m in Sources */,
+				41CF7B9C20D2084F0050F486 /* BEMCheckBoxGroup.m in Sources */,
 				29629EF11F78E669002CFCBD /* XLJSHandler.m in Sources */,
 				29AD6C6B1ED41E2100B0879C /* UserManager.m in Sources */,
 				29AD6C671ED41BA100B0879C /* AdPageView.m in Sources */,
@@ -1894,6 +1947,7 @@
 				293D46081ECDAEAD007C64A9 /* HomeViewController.m in Sources */,
 				412EB42B20D1013900786DE6 /* ETColor.m in Sources */,
 				290A981D1F4ABEB9006BF882 /* BaseRequestAPI.m in Sources */,
+				41CF7B9A20D2084F0050F486 /* BEMAnimationManager.m in Sources */,
 				29280E881F063EE700BF52D9 /* XYTransition.m in Sources */,
 				290A97FF1F4ABC12006BF882 /* NickNameLbel.m in Sources */,
 				290A98051F4ABCD9006BF882 /* IAPManager.m in Sources */,
@@ -1912,6 +1966,7 @@
 				296DEA781F5D530E00C6FD00 /* ScrollBannerVC.m in Sources */,
 				2940C5381F0A3EC5008BC29F /* GetWaterFallListAPI.m in Sources */,
 				29CD2C6B1F30227100A0F5DC /* TableViewCell.m in Sources */,
+				41CF7B8E20D206FD0050F486 /* DecoServicesViewController.m in Sources */,
 				29D3C00A1F4D11A200FD3914 /* TagsButton.m in Sources */,
 				293D46111ECDAEED007C64A9 /* MineViewController.m in Sources */,
 				29530FB01F60F10700D24E05 /* YSLDraggableCardContainer.m in Sources */,
@@ -1924,6 +1979,7 @@
 				29AD6C5A1ED3E28800B0879C /* HeaderModel.m in Sources */,
 				293D45FA1ECDA4D8007C64A9 /* RootWebViewController.m in Sources */,
 				296DEA751F5D50D100C6FD00 /* UIView+SDExtension.m in Sources */,
+				41CF7B9B20D2084F0050F486 /* BEMPathManager.m in Sources */,
 				29D3C0091F4D11A200FD3914 /* FFTagsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

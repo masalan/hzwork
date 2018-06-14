@@ -7,7 +7,7 @@
 //
 
 #import "MainTabBarController.h"
-
+#import "DecoServicesViewController.h"
 #import "RootNavigationController.h"
 #import "HomeViewController.h"
 #import "WaterFallListViewController.h"
@@ -58,16 +58,23 @@
 -(void)setUpAllChildViewController{
     _VCS = @[].mutableCopy;
 
+    // 首页
     PersonListViewController *homeVC = [[PersonListViewController alloc]init];
     [self setupChildViewController:homeVC title:@"首页" imageName:@"icon_tabbar_homepage" seleceImageName:@"icon_tabbar_homepage_selected"];
     
+    //装修服务
+    DecoServicesViewController *DecoServiceVC = [[DecoServicesViewController alloc]init];
+    [self setupChildViewController:DecoServiceVC title:@"装修服务" imageName:@"icon_tabbar_onsite" seleceImageName:@"icon_tabbar_onsite_selected"];
+    
+    // 居家服务
     ToolDemoViewController *makeFriendVC = [[ToolDemoViewController alloc]init];
-    [self setupChildViewController:makeFriendVC title:@"Demo" imageName:@"icon_tabbar_onsite" seleceImageName:@"icon_tabbar_onsite_selected"];
+    [self setupChildViewController:makeFriendVC title:@"居家服务" imageName:@"icon_tabbar_onsite" seleceImageName:@"icon_tabbar_onsite_selected"];
     
+    // 商城
     DraggingCardViewController *msgVC = [DraggingCardViewController new];
-    [self setupChildViewController:msgVC title:@"消息" imageName:@"icon_tabbar_merchant_normal" seleceImageName:@"icon_tabbar_merchant_selected"];
+    [self setupChildViewController:msgVC title:@"商城" imageName:@"icon_tabbar_merchant_normal" seleceImageName:@"icon_tabbar_merchant_selected"];
     
-    
+    //我的
     MineViewController *mineVC = [[MineViewController alloc]init];
     [self setupChildViewController:mineVC title:@"我的" imageName:@"icon_tabbar_mine" seleceImageName:@"icon_tabbar_mine_selected"];
     

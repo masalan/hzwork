@@ -6,13 +6,9 @@
 //  Copyright © 2018 Alain Serge. All rights reserved.
 //
 
-#import "ETRegularExpressionHelper.h"
 #import "loginViewPage.h"
-#import "LoginTextField.h"
-#import "ETColor.h"
-#import "ETConfig.h"
-#import "MBProgressHUD.h"
-// text editing
+#import "Utliltes.h"
+
 @interface loginViewPage()<UITextFieldDelegate>
 @property(nonatomic, strong) UIImageView *wxIcons,*qqIcons; //背景图
 @property (weak, nonatomic) UIImageView *logoImgView;     // Logo背景图
@@ -150,7 +146,7 @@
     
     if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"isRememberPassword"] isEqualToString:@"Yes"]) {
         usernameTF.text = [[NSUserDefaults standardUserDefaults] objectForKey:@"mobilePhone"];
-        // passwordTF.text = [[NSUserDefaults standardUserDefaults] objectForKey:@"password"];
+        passwordTF.text = [[NSUserDefaults standardUserDefaults] objectForKey:@"password"];
     }
     
 }
@@ -306,5 +302,19 @@
     }
     return YES;
 }
+
+
+#pragma mark - BEMCheckBoxDelegate
+- (void)didTapCheckBox:(BEMCheckBox *)checkBox {
+    // fq
+    if (checkBox.on) {
+        [[NSUserDefaults standardUserDefaults] setObject:@"Yes" forKey:@"isRememberPassword"];
+    }
+    else {
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"isRememberPassword"];
+    }
+    
+}
+
 
 @end

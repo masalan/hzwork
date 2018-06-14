@@ -62,7 +62,8 @@
 }
 
 -(void)didClickForgetPwd:(loginViewPage *)action{
-    DLog(@"forget password");
+    LoginViewController *vc = [[LoginViewController alloc] init];
+   [self.navigationController pushViewController:vc animated:YES];
 }
 
 // Login by wechat
