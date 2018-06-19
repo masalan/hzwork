@@ -196,6 +196,8 @@
 		412EB42F20D102D300786DE6 /* ETConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42D20D102D200786DE6 /* ETConfig.m */; };
 		412EB43C20D1177B00786DE6 /* ETRegularExpressionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */; };
 		412EB44020D121E700786DE6 /* ETNavStyleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */; };
+		4136D2C020D3475800C80D6D /* ForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4136D2BF20D3475700C80D6D /* ForgetPwdViewController.m */; };
+		4136D2C320D347D300C80D6D /* ForgetPwdViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4136D2C220D347D300C80D6D /* ForgetPwdViewPage.m */; };
 		41CF7B8E20D206FD0050F486 /* DecoServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */; };
 		41CF7B9A20D2084F0050F486 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9320D2084F0050F486 /* BEMAnimationManager.m */; };
 		41CF7B9B20D2084F0050F486 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9420D2084F0050F486 /* BEMPathManager.m */; };
@@ -517,6 +519,10 @@
 		412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRegularExpressionHelper.m; sourceTree = "<group>"; };
 		412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavStyleHelper.m; sourceTree = "<group>"; };
 		412EB43F20D121E700786DE6 /* ETNavStyleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavStyleHelper.h; sourceTree = "<group>"; };
+		4136D2BE20D3475700C80D6D /* ForgetPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdViewController.h; sourceTree = "<group>"; };
+		4136D2BF20D3475700C80D6D /* ForgetPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdViewController.m; sourceTree = "<group>"; };
+		4136D2C120D347D300C80D6D /* ForgetPwdViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdViewPage.h; sourceTree = "<group>"; };
+		4136D2C220D347D300C80D6D /* ForgetPwdViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdViewPage.m; sourceTree = "<group>"; };
 		41CF7B8C20D206FD0050F486 /* DecoServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoServicesViewController.h; sourceTree = "<group>"; };
 		41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoServicesViewController.m; sourceTree = "<group>"; };
 		41CF7B9220D2084F0050F486 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
@@ -956,6 +962,8 @@
 			children = (
 				293D46581ECDC004007C64A9 /* LoginViewController.h */,
 				293D46591ECDC004007C64A9 /* LoginViewController.m */,
+				4136D2BE20D3475700C80D6D /* ForgetPwdViewController.h */,
+				4136D2BF20D3475700C80D6D /* ForgetPwdViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1557,6 +1565,8 @@
 			children = (
 				412EB42120D0ED3200786DE6 /* loginViewPage.h */,
 				412EB42220D0ED3200786DE6 /* loginViewPage.m */,
+				4136D2C120D347D300C80D6D /* ForgetPwdViewPage.h */,
+				4136D2C220D347D300C80D6D /* ForgetPwdViewPage.m */,
 			);
 			name = ViewPage;
 			path = "New Group";
@@ -1923,6 +1933,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4136D2C320D347D300C80D6D /* ForgetPwdViewPage.m in Sources */,
 				2917D2111EE0268A00E76185 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				29629EF01F78E669002CFCBD /* XLWebViewController.m in Sources */,
 				296DEA6F1F5D50D100C6FD00 /* TAAbstractDotView.m in Sources */,
@@ -1940,6 +1951,7 @@
 				29AD6C5B1ED3E28800B0879C /* PPNetworkCache.m in Sources */,
 				290A97DC1F4AB24A006BF882 /* EmitterViewController.m in Sources */,
 				296F9A1B1F04F18400909CDB /* WaterFallCollectionViewCell.m in Sources */,
+				4136D2C020D3475800C80D6D /* ForgetPwdViewController.m in Sources */,
 				412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */,
 				296F72C11F9761C800E5EAB1 /* NativeCallJSVC.m in Sources */,
 				2914E4901F20A4D1001C01DB /* PersonListCollectionViewCell.m in Sources */,
