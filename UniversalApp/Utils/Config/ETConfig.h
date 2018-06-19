@@ -17,6 +17,10 @@
 #define TOCK   NSLog(@"Time: %f", -[startTime timeIntervalSinceNow])
 #define ViewY  self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height
 #define ConvientlyLogin     [self.navigationController pushViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:@"login"] animated:YES];
+
+
+
+
 extern NSString *const mediumFont;
 extern NSString *const lightFont;
 extern NSString *const regularFont;

@@ -161,8 +161,7 @@
     NSInteger VCCount = self.navigationController.viewControllers.count;
     //下面判断的意义是 当VC所在的导航控制器中的VC个数大于1 或者 是present出来的VC时，才展示返回按钮，其他情况不展示
     if (isShowLiftBack && ( VCCount > 1 || self.navigationController.presentingViewController != nil)) {
-        [self addNavigationItemWithImageNames:@[@"back_icon"] isLeft:YES target:self action:@selector(backBtnClicked) tags:nil];
-        
+       [self addNavigationItemWithImageNames:@[@"back_icon"] isLeft:YES target:self action:@selector(backBtnClicked) tags:nil];
     } else {
         self.navigationItem.hidesBackButton = YES;
         UIBarButtonItem * NULLBar=[[UIBarButtonItem alloc]initWithCustomView:[UIView new]];
@@ -201,9 +200,9 @@
     for (NSString * imageName in imageNames) {
         UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
         [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
-        btn.frame = CGRectMake(0, 0, 20, 20);
+        btn.frame = CGRectMake(0, 0, 9, 16);
         [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-        
+        btn.contentMode = UIViewContentModeScaleAspectFill;
         if (isLeft) {
             [btn setContentEdgeInsets:UIEdgeInsetsMake(0, -10, 0, 10)];
         }else{
@@ -242,7 +241,7 @@
         [btn setTitle:title forState:UIControlStateNormal];
         [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
         btn.titleLabel.font = SYSTEMFONT(16);
-        [btn setTitleColor:KWhiteColor forState:UIControlStateNormal];
+        [btn setTitleColor:Black333333 forState:UIControlStateNormal];
         btn.tag = [tags[i++] integerValue];
         [btn sizeToFit];
         

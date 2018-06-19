@@ -7,10 +7,9 @@
 // jason test
 
 #import "LoginViewController.h"
-#import <UMSocialCore/UMSocialCore.h>
+#import "ForgetPwdViewController.h"
 #import "loginViewPage.h"
-#import "ETNavStyleHelper.h"
-#import "ETConfig.h"
+#import "Utliltes.h"
 
 @interface LoginViewController ()<loginViewPageDelegate>
 @property (strong, nonatomic) loginViewPage *loginView;
@@ -22,22 +21,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
+    
+   // self.isHidenNaviBar = NO;
+   // self.StatusBarStyle = UIStatusBarStyleLightContent;
+    //self.isShowLiftBack = YES;
     [self.view addSubview:self.loginView];
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-    self.loginView.frame = self.view.frame;
-    
-    
-//    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-//    backBtn.frame = CGRectMake(12,12, 20, 20);
-//    [backBtn setImage:IMAGE_NAMED(@"back_icon") forState:UIControlStateNormal];
-//    [backBtn addTarget:self action:@selector(backBtnClicked) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:backBtn];
+    self.loginView.frame = CGRectMake(0,0, ScreenWidth, ScreenHeight);
+   // [self.navigationController setNavigationBarHidden:NO];
 }
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+}
+
 
 #pragma mark - method resquest
 - (void)popView {
@@ -68,8 +71,7 @@
 }
 
 -(void)didClickForgetPwd:(loginViewPage *)action{
-    LoginViewController *vc = [[LoginViewController alloc] init];
-   [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:[ForgetPwdViewController new] animated:YES];
 }
 
 // Login by wechat

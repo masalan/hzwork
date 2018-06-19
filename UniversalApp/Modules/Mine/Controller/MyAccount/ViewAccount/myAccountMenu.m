@@ -31,7 +31,7 @@
         self.titlesArr = @[@"1我的订单",@"我的收藏",@"我的装修",@"我的关注"];
         self.imagesArr = @[@"orders_Icon",@"favoris_Icon",@"paint_Icon",@"follow_Icon"];
         
-        self.titleArr = @[@"账号设置",@"关于我们",@"意见反馈",@"联系客服",@"分享应用"];
+        self.titleArr = @[@"2账号设置",@"关于我们",@"意见反馈",@"联系客服",@"分享应用"];
         self.iconArr = @[@"setting_Icon",@"about_Icon",@"comment_Icon",@"support_Icon",@"share_Icon"];
         
         

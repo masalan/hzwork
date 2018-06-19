@@ -15,7 +15,9 @@
    //Nav的title
     [vc.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHexString:colorName],NSFontAttributeName:[UIFont fontWithName:fontName size:size]}];
     //左侧返回键
-    button.frame = CGRectMake(0, 10, 27, 100);
+    
+    button.frame = CGRectMake(10, 10, 20, 20);
+   // button.frame = CGRectMake(0, 10, 27, 100);
     button.contentVerticalAlignment = UIControlContentHorizontalAlignmentCenter;
     [button setImage:[UIImage imageNamed:name] forState:UIControlStateNormal];
     vc.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];

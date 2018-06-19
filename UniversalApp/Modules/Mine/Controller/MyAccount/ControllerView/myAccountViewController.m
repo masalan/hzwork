@@ -58,12 +58,9 @@
 
 // Login page
 -(void)loginAction:(myAccountMainView *)action{
-   // [self.navigationController pushViewController:[LoginViewController new] animated:YES];
-    
-    LoginViewController *vc = [LoginViewController new];
-   // profileVC.headerImage = _headerView.headImgView.image;
+    DLog(@"login------------------------");
+      LoginViewController *vc = [LoginViewController new];
     [self.navigationController pushViewController:vc animated:YES];
-
 }
 
 

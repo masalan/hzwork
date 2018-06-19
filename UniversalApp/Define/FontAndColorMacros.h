@@ -20,6 +20,7 @@
 //主题色 导航栏颜色
 #define CNavBgColor  [UIColor colorWithHexString:@"00AE68"]
 #define NavTopBgColor  [UIColor colorWithHexString:@"FFFFFF"]
+#define Black333333  [UIColor colorWithHexString:@"333333"]
 
 //#define CNavBgColor  [Ulor colorWithHexString:@"ffffff"]
 #define CNavBgFontColor  [UIColor colorWithHexString:@"ffffff"]

@@ -16,4 +16,6 @@
 #import "ETNavStyleHelper.h"
 #import "ETGetVC.h"
 #import "ETButton.h"
-
+#import <UMSocialCore/UMSocialCore.h>
+#import "ETNavStyleHelper.h"
+#import "LineView.h"

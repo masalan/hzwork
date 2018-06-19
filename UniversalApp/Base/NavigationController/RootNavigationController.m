@@ -27,9 +27,9 @@
     UINavigationBar *navBar = [UINavigationBar appearance];
     //导航栏背景图
     //    [navBar setBackgroundImage:[UIImage imageNamed:@"tabBarBj"] forBarMetrics:UIBarMetricsDefault];
-    [navBar setBarTintColor:CNavBgColor];
-    [navBar setTintColor:CNavBgFontColor];
-    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName :CNavBgFontColor, NSFontAttributeName : [UIFont systemFontOfSize:18]}];
+    [navBar setBarTintColor:Black333333];
+    [navBar setTintColor:Black333333];
+    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName :Black333333, NSFontAttributeName : [UIFont systemFontOfSize:18]}];
     
     [navBar setBackgroundImage:[UIImage imageWithColor:NavTopBgColor] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];  //CNavBgColor 
     [navBar setShadowImage:[UIImage new]];//去掉阴影线
