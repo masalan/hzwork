@@ -11,6 +11,9 @@
 
 @protocol PersonListMainDelegate <NSObject>
 
+// click More
+- (void)moreViewMainAction:(PersonListMainView *)action;
+
 @end
 
 

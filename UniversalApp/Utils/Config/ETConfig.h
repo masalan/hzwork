@@ -22,6 +22,9 @@ extern NSString *const lightFont;
 extern NSString *const regularFont;
 extern NSString *const normalRed;
 extern NSString *const boldFont;
+extern NSString *const SimSunFont;
+extern NSString *const PingFangSCMedium;
+
 
 //extern 
 

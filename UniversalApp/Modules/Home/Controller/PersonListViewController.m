@@ -15,8 +15,11 @@
 @end
 
 @implementation PersonListViewController
-
+{
+    UIView *_NavView;//导航栏
+}
 - (void)viewDidLoad {
+   self.isHidenNaviBar = YES;
     [super viewDidLoad];
     [self.view addSubview:self.infoView];
 }
@@ -24,6 +27,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     self.infoView.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
 }
 
@@ -31,6 +35,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)moreViewMainAction:(PersonListMainView *)action{
+    NSLog(@"moreView----------------- clic");
 }
 
 #pragma mark - setters and getters

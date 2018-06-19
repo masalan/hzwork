@@ -7,15 +7,16 @@
 //
 
 #import "ETButton.h"
-
+#import "Utliltes.h"
 @implementation ETButton
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (id)init
+{
+    if (self = [super init]) {
+       // self.layer.cornerRadius = 8;
+        //self.clipsToBounds = YES;
+        [self setBackgroundColor:[UIColor clearColor]];
+        [self imageRectForContentRect:CGRectMake(9, 9, 21, 24)];
+    }
+    return self;
 }
-*/
-
 @end

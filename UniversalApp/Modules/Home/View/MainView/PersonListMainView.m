@@ -11,12 +11,14 @@
 #import "underBannerView.h"
 #import "mainFooterView.h"
 #import "Utliltes.h"
+#import "NavBarMainView.h"
 
 
-@interface PersonListMainView()<headerBannerViewDelegate,underBannerViewDelegate,mainFooterViewDelegate>
+@interface PersonListMainView()<headerBannerViewDelegate,underBannerViewDelegate,mainFooterViewDelegate,NavBarMainViewDelegate>
 @property (nonatomic, strong) headerBannerView *bannerView;
 @property (nonatomic, strong) underBannerView *moreView;
 @property (nonatomic, strong) mainFooterView *footerView;
+@property (nonatomic, strong) NavBarMainView *topNavBar;
 
 @end
 
@@ -25,12 +27,17 @@
     if (self = [super initWithFrame:frame]) {
          [self setUpViews];
         [self layOutViews];
-        self.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        self.backgroundColor = [UIColor whiteColor];
     }
     return self;
 }
 
 - (void)setUpViews {
+    NavBarMainView *topNavBar = [[NavBarMainView alloc]init];
+    topNavBar.delegate = self;
+    [self addSubview:topNavBar];
+    self.topNavBar = topNavBar;
+    
     headerBannerView *bannerView = [[headerBannerView alloc]init];
     bannerView.delegate = self;
     [self addSubview:bannerView];
@@ -48,11 +55,19 @@
     
 }
 
-
+//  -KHeaderHeight
 - (void)layOutViews {
     WEAKSELF;
-    [self.bannerView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.topNavBar mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(weakSelf).offset(0);
+        make.left.mas_equalTo(weakSelf).offset(0);
+        make.right.mas_equalTo(weakSelf).offset(0);
+        make.height.mas_equalTo(80);
+    }];
+    
+    
+    [self.bannerView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(weakSelf.topNavBar.mas_bottom).offset(0);
         make.left.mas_equalTo(weakSelf).offset(0);
         make.right.mas_equalTo(weakSelf).offset(0);
         make.height.mas_equalTo(187);
@@ -72,6 +87,12 @@
         make.size.mas_equalTo(CGSizeMake(ScreenWidth, ScreenHeight-(187+30)));
         
     }];
+}
+
+-(void)didClickMoreView:(underBannerView *)action{
+    if ([self.delegate respondsToSelector:@selector(moreViewMainAction:)]) {
+        [self.delegate moreViewMainAction:self];
+    }
 }
 
 /*

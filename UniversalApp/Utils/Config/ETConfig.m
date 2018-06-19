@@ -12,4 +12,9 @@ NSString *const lightFont = @"PingFangSC-Light";
 NSString *const regularFont = @"PingFangSC-Regular";
 NSString *const normalRed = @"#ff7676";
 NSString *const boldFont = @"PingFang-SC-Bold";
+NSString *const SimSunFont = @"SimSun-SC-Bold";
+NSString *const PingFangSCMedium = @"PingFang-SC-Medium";
+
+
+
 

@@ -19,6 +19,8 @@
 #import "DraggingCardViewController.h"
 #import "UITabBar+CustomBadge.h"
 #import "XYTabBar.h"
+#import "ProfileViewController.h"
+#import "myAccountViewController.h"
 
 @interface MainTabBarController ()<UITabBarControllerDelegate>
 
@@ -57,7 +59,7 @@
 #pragma mark - ——————— 初始化VC ————————
 -(void)setUpAllChildViewController{
     _VCS = @[].mutableCopy;
-
+    
     // 首页
     PersonListViewController *homeVC = [[PersonListViewController alloc]init];
     [self setupChildViewController:homeVC title:@"首页" imageName:@"icon_tabbar_homepage" seleceImageName:@"icon_tabbar_homepage_selected"];
@@ -71,11 +73,11 @@
     [self setupChildViewController:makeFriendVC title:@"居家服务" imageName:@"icon_tabbar_onsite" seleceImageName:@"icon_tabbar_onsite_selected"];
     
     // 商城
-    DraggingCardViewController *msgVC = [DraggingCardViewController new];
+    //DraggingCardViewController *msgVC = [DraggingCardViewController new];
+    MineViewController *msgVC = [[MineViewController alloc]init];
     [self setupChildViewController:msgVC title:@"商城" imageName:@"icon_tabbar_merchant_normal" seleceImageName:@"icon_tabbar_merchant_selected"];
     
-    //我的
-    MineViewController *mineVC = [[MineViewController alloc]init];
+    myAccountViewController *mineVC = [[myAccountViewController alloc]init];
     [self setupChildViewController:mineVC title:@"我的" imageName:@"icon_tabbar_mine" seleceImageName:@"icon_tabbar_mine_selected"];
     self.viewControllers = _VCS;
 }
@@ -93,7 +95,7 @@
     //包装导航控制器
     RootNavigationController *nav = [[RootNavigationController alloc]initWithRootViewController:controller];
     
-//    [self addChildViewController:nav];
+    //    [self addChildViewController:nav];
     [_VCS addObject:nav];
     
 }
@@ -127,3 +129,4 @@
 
 
 @end
+

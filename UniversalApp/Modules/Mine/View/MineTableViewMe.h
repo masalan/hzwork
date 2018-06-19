@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MineTableViewMe;
+
+@protocol MineTableViewMeDelegare <NSObject>
+@end
 
 @interface MineTableViewMe : UIView
-
+@property (weak,nonatomic) id <MineTableViewMeDelegare>delegate;
 @end

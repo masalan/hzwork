@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol NavBarMainViewDelegate <NSObject>;
+@end
 
 @interface NavBarMainView : UIView
-
+@property (weak,nonatomic)id<NavBarMainViewDelegate>delegate;
 @end

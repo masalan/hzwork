@@ -24,6 +24,7 @@
     adView = adView;
 }
 #pragma mark ————— FPS 监测 —————
+
 +(void)showFPS{
     YYFPSLabel *_fpsLabel = [YYFPSLabel new];
     [_fpsLabel sizeToFit];
@@ -32,5 +33,6 @@
     //    _fpsLabel.alpha = 0;
     [kAppWindow addSubview:_fpsLabel];
 }
+
 
 @end

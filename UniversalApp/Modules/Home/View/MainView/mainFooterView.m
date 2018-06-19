@@ -6,6 +6,7 @@
 //  Copyright © 2018 Alain Serge. All rights reserved.
 //
 #import "mainListTableViewCell.h"
+#import "ProfileViewController.h"
 #import "mainFooterView.h"
 #import "Utliltes.h"
 @interface mainFooterView()<UITableViewDelegate,UITableViewDataSource>
@@ -59,6 +60,14 @@
     return 107;
 }
 
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//    ProfileViewController *vc = [[ProfileViewController alloc] init];
+//   [[ETGetVC GetControllerWithView:self].navigationController pushViewController:vc animated:YES];
+//
+    
+}
 - (void)setPoModel:(mainListTableViewCell *)poModel {
     [self reloadData];
 }

@@ -10,6 +10,7 @@
 #import "Utliltes.h"
 @interface underBannerView()
 @property (weak, nonatomic) UILabel *titleLabel,*commentCount,*dateLabel,*lineTwo;
+@property (weak, nonatomic) UIButton *moreBtn;
 
 @end
 
@@ -35,6 +36,16 @@
     [self addSubview:titleLabel];
     self.titleLabel = titleLabel;
     
+    UIButton *moreBtn = [[UIButton alloc]init];
+    [moreBtn setTitle:@">" forState:UIControlStateNormal];
+    moreBtn.layer.cornerRadius = 4;
+    moreBtn.backgroundColor = [UIColor colorWithHexString:@"#E6E6E6"];
+    moreBtn.titleLabel.font = [UIFont fontWithName:SimSunFont size:12];
+    [moreBtn setTitleColor:[UIColor colorWithHexString:@"#999999"] forState:UIControlStateNormal];
+    [moreBtn addTarget:self action:@selector(moreClick) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:moreBtn];
+    self.moreBtn = moreBtn;
+    
 }
 
 - (void)layOutViews {
@@ -45,8 +56,19 @@
         make.size.mas_equalTo(CGSizeMake(80, 18));
     }];
     
-}
+    [self.moreBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(weakSelf).offset(6);
+        make.right.mas_equalTo(weakSelf).offset(-15);
+        make.size.mas_equalTo(CGSizeMake(20, 18));
+    }];
     
+}
+
+-(void)moreClick{
+    if ([self.delegate respondsToSelector:@selector(didClickMoreView:)]) {
+        [self.delegate didClickMoreView:self];
+    }
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

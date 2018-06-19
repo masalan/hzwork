@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PersonListViewController : UIViewController
+//@interface PersonListViewController : UIViewController
+@interface PersonListViewController : RootViewController
 
 @end

@@ -11,6 +11,8 @@
 @class  underBannerView;
 
 @protocol underBannerViewDelegate <NSObject>;
+- (void)didClickMoreView:(underBannerView *)action;
+
 @end
 
 

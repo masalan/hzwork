@@ -89,7 +89,7 @@ NSString * const ID = @"SDCycleScrollViewCell";
     _pageControlRightOffset = 0;
     _pageControlStyle = SDCycleScrollViewPageContolStyleClassic;
     _hidesForSinglePage = YES;
-    _currentPageDotColor = [UIColor whiteColor];
+    _currentPageDotColor = [UIColor colorWithHexString:@"FFB600"];
     _pageDotColor = [UIColor lightGrayColor];
     _bannerImageViewContentMode = UIViewContentModeScaleToFill;
     

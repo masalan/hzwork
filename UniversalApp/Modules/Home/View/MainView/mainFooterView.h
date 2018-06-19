@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 @class mainFooterView;
 @protocol mainFooterViewDelegate <NSObject>;
-- (void)deliveryView:(mainFooterView *)view ofRowNumber:(NSIndexPath *)indexPath;
+- (void)didClickDetailsView:(mainFooterView *)action;
+
 @end
 @interface mainFooterView : UITableView
 @property (weak, nonatomic) id<mainFooterViewDelegate>p_delegate;

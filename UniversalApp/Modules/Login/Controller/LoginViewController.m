@@ -30,6 +30,13 @@
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     self.loginView.frame = self.view.frame;
+    
+    
+//    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    backBtn.frame = CGRectMake(12,12, 20, 20);
+//    [backBtn setImage:IMAGE_NAMED(@"back_icon") forState:UIControlStateNormal];
+//    [backBtn addTarget:self action:@selector(backBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:backBtn];
 }
 
 #pragma mark - method resquest

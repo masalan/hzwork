@@ -21,7 +21,6 @@
 
 @end
 @implementation PersonListCollectionViewCell
-
 -(instancetype)initWithFrame:(CGRect)frame{
     if ([super initWithFrame:frame]) {
         self.backgroundColor=KWhiteColor;

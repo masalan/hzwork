@@ -190,12 +190,22 @@
 		4122163D20D23E9F00F73852 /* underBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163C20D23E9F00F73852 /* underBannerView.m */; };
 		4122164020D2423D00F73852 /* mainFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122163F20D2423D00F73852 /* mainFooterView.m */; };
 		4122164320D249DA00F73852 /* mainListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122164220D249DA00F73852 /* mainListTableViewCell.m */; };
+		4122164620D2642100F73852 /* ETGetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122164520D2642100F73852 /* ETGetVC.m */; };
+		4122164A20D2680900F73852 /* NavBarMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122164920D2680900F73852 /* NavBarMainView.m */; };
+		4122164D20D271B500F73852 /* ETButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4122164C20D271B500F73852 /* ETButton.m */; };
 		412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42220D0ED3200786DE6 /* loginViewPage.m */; };
 		412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42620D0FD3300786DE6 /* LoginTextField.m */; };
 		412EB42B20D1013900786DE6 /* ETColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42A20D1013900786DE6 /* ETColor.m */; };
 		412EB42F20D102D300786DE6 /* ETConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB42D20D102D200786DE6 /* ETConfig.m */; };
 		412EB43C20D1177B00786DE6 /* ETRegularExpressionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */; };
 		412EB44020D121E700786DE6 /* ETNavStyleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */; };
+		41399F6220D88FF20068B339 /* myAccountMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 41399F5B20D88FF20068B339 /* myAccountMenu.m */; };
+		41399F6320D88FF20068B339 /* myAccountMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41399F5C20D88FF20068B339 /* myAccountMainView.m */; };
+		41399F6420D88FF20068B339 /* myAccountHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 41399F5D20D88FF20068B339 /* myAccountHeader.m */; };
+		41399F6520D88FF20068B339 /* myAccountBtns.m in Sources */ = {isa = PBXBuildFile; fileRef = 41399F5E20D88FF20068B339 /* myAccountBtns.m */; };
+		41399F6620D88FF20068B339 /* myAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41399F6020D88FF20068B339 /* myAccountViewController.m */; };
+		41CE5D6D20D3B0700062113E /* MineTableViewMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CE5D6C20D3B0700062113E /* MineTableViewMe.m */; };
+		41CE5D7620D3B9180062113E /* mineTableDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CE5D7520D3B9180062113E /* mineTableDataView.m */; };
 		41CF7B8E20D206FD0050F486 /* DecoServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */; };
 		41CF7B9A20D2084F0050F486 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9320D2084F0050F486 /* BEMAnimationManager.m */; };
 		41CF7B9B20D2084F0050F486 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF7B9420D2084F0050F486 /* BEMPathManager.m */; };
@@ -505,6 +515,12 @@
 		4122163F20D2423D00F73852 /* mainFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainFooterView.m; sourceTree = "<group>"; };
 		4122164120D249DA00F73852 /* mainListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainListTableViewCell.h; sourceTree = "<group>"; };
 		4122164220D249DA00F73852 /* mainListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainListTableViewCell.m; sourceTree = "<group>"; };
+		4122164420D2642100F73852 /* ETGetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETGetVC.h; sourceTree = "<group>"; };
+		4122164520D2642100F73852 /* ETGetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETGetVC.m; sourceTree = "<group>"; };
+		4122164820D2680900F73852 /* NavBarMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavBarMainView.h; sourceTree = "<group>"; };
+		4122164920D2680900F73852 /* NavBarMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBarMainView.m; sourceTree = "<group>"; };
+		4122164B20D271B500F73852 /* ETButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETButton.h; sourceTree = "<group>"; };
+		4122164C20D271B500F73852 /* ETButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETButton.m; sourceTree = "<group>"; };
 		412EB42120D0ED3200786DE6 /* loginViewPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewPage.h; sourceTree = "<group>"; };
 		412EB42220D0ED3200786DE6 /* loginViewPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewPage.m; sourceTree = "<group>"; };
 		412EB42520D0FD3300786DE6 /* LoginTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
@@ -517,6 +533,20 @@
 		412EB43B20D1177B00786DE6 /* ETRegularExpressionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRegularExpressionHelper.m; sourceTree = "<group>"; };
 		412EB43E20D121E700786DE6 /* ETNavStyleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavStyleHelper.m; sourceTree = "<group>"; };
 		412EB43F20D121E700786DE6 /* ETNavStyleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavStyleHelper.h; sourceTree = "<group>"; };
+		41399F5720D88FF20068B339 /* myAccountHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAccountHeader.h; sourceTree = "<group>"; };
+		41399F5820D88FF20068B339 /* myAccountMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAccountMainView.h; sourceTree = "<group>"; };
+		41399F5920D88FF20068B339 /* myAccountMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAccountMenu.h; sourceTree = "<group>"; };
+		41399F5A20D88FF20068B339 /* myAccountBtns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAccountBtns.h; sourceTree = "<group>"; };
+		41399F5B20D88FF20068B339 /* myAccountMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAccountMenu.m; sourceTree = "<group>"; };
+		41399F5C20D88FF20068B339 /* myAccountMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAccountMainView.m; sourceTree = "<group>"; };
+		41399F5D20D88FF20068B339 /* myAccountHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAccountHeader.m; sourceTree = "<group>"; };
+		41399F5E20D88FF20068B339 /* myAccountBtns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAccountBtns.m; sourceTree = "<group>"; };
+		41399F6020D88FF20068B339 /* myAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAccountViewController.m; sourceTree = "<group>"; };
+		41399F6120D88FF20068B339 /* myAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAccountViewController.h; sourceTree = "<group>"; };
+		41CE5D6B20D3B0700062113E /* MineTableViewMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTableViewMe.h; sourceTree = "<group>"; };
+		41CE5D6C20D3B0700062113E /* MineTableViewMe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewMe.m; sourceTree = "<group>"; };
+		41CE5D7420D3B9180062113E /* mineTableDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mineTableDataView.h; sourceTree = "<group>"; };
+		41CE5D7520D3B9180062113E /* mineTableDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineTableDataView.m; sourceTree = "<group>"; };
 		41CF7B8C20D206FD0050F486 /* DecoServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoServicesViewController.h; sourceTree = "<group>"; };
 		41CF7B8D20D206FD0050F486 /* DecoServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoServicesViewController.m; sourceTree = "<group>"; };
 		41CF7B9220D2084F0050F486 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
@@ -819,6 +849,9 @@
 				412EB42920D1013900786DE6 /* ETColor.h */,
 				412EB42A20D1013900786DE6 /* ETColor.m */,
 				41CF7B9E20D208C10050F486 /* Utliltes.h */,
+				4122164720D2648600F73852 /* GetViewController(获取控制器) */,
+				4122164B20D271B500F73852 /* ETButton.h */,
+				4122164C20D271B500F73852 /* ETButton.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -918,6 +951,7 @@
 			isa = PBXGroup;
 			children = (
 				293D460F1ECDAEED007C64A9 /* MineViewController.h */,
+				41399F5520D88FF20068B339 /* MyAccount */,
 				293D46101ECDAEED007C64A9 /* MineViewController.m */,
 				2914E4911F20A4F8001C01DB /* ProfileViewController.h */,
 				2914E4921F20A4F8001C01DB /* ProfileViewController.m */,
@@ -1283,6 +1317,10 @@
 				290A97FA1F4ABC12006BF882 /* MineHeaderView.m */,
 				290A97FB1F4ABC12006BF882 /* NickNameLbel.h */,
 				290A97FC1F4ABC12006BF882 /* NickNameLbel.m */,
+				41CE5D6B20D3B0700062113E /* MineTableViewMe.h */,
+				41CE5D6C20D3B0700062113E /* MineTableViewMe.m */,
+				41CE5D7420D3B9180062113E /* mineTableDataView.h */,
+				41CE5D7520D3B9180062113E /* mineTableDataView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1548,8 +1586,19 @@
 				4122163F20D2423D00F73852 /* mainFooterView.m */,
 				4122164120D249DA00F73852 /* mainListTableViewCell.h */,
 				4122164220D249DA00F73852 /* mainListTableViewCell.m */,
+				4122164820D2680900F73852 /* NavBarMainView.h */,
+				4122164920D2680900F73852 /* NavBarMainView.m */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		4122164720D2648600F73852 /* GetViewController(获取控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				4122164420D2642100F73852 /* ETGetVC.h */,
+				4122164520D2642100F73852 /* ETGetVC.m */,
+			);
+			path = "GetViewController(获取控制器)";
 			sourceTree = "<group>";
 		};
 		412EB42420D0ED4500786DE6 /* ViewPage */ = {
@@ -1597,6 +1646,39 @@
 				412EB43F20D121E700786DE6 /* ETNavStyleHelper.h */,
 			);
 			path = "ETNavStyleHelper(设置导航栏)";
+			sourceTree = "<group>";
+		};
+		41399F5520D88FF20068B339 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				41399F5620D88FF20068B339 /* ViewAccount */,
+				41399F5F20D88FF20068B339 /* ControllerView */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		41399F5620D88FF20068B339 /* ViewAccount */ = {
+			isa = PBXGroup;
+			children = (
+				41399F5720D88FF20068B339 /* myAccountHeader.h */,
+				41399F5820D88FF20068B339 /* myAccountMainView.h */,
+				41399F5920D88FF20068B339 /* myAccountMenu.h */,
+				41399F5A20D88FF20068B339 /* myAccountBtns.h */,
+				41399F5B20D88FF20068B339 /* myAccountMenu.m */,
+				41399F5C20D88FF20068B339 /* myAccountMainView.m */,
+				41399F5D20D88FF20068B339 /* myAccountHeader.m */,
+				41399F5E20D88FF20068B339 /* myAccountBtns.m */,
+			);
+			path = ViewAccount;
+			sourceTree = "<group>";
+		};
+		41399F5F20D88FF20068B339 /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				41399F6020D88FF20068B339 /* myAccountViewController.m */,
+				41399F6120D88FF20068B339 /* myAccountViewController.h */,
+			);
+			path = ControllerView;
 			sourceTree = "<group>";
 		};
 		41CF7B8F20D207100050F486 /* DecoService(装修服务) */ = {
@@ -1714,7 +1796,7 @@
 				TargetAttributes = {
 					296F9EB71ECC64CE0063A255 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 2AJE792X89;
+						DevelopmentTeam = BBBQL9T7EL;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
@@ -1941,21 +2023,26 @@
 				290A97DC1F4AB24A006BF882 /* EmitterViewController.m in Sources */,
 				296F9A1B1F04F18400909CDB /* WaterFallCollectionViewCell.m in Sources */,
 				412EB42720D0FD3300786DE6 /* LoginTextField.m in Sources */,
+				41CE5D6D20D3B0700062113E /* MineTableViewMe.m in Sources */,
 				296F72C11F9761C800E5EAB1 /* NativeCallJSVC.m in Sources */,
 				2914E4901F20A4D1001C01DB /* PersonListCollectionViewCell.m in Sources */,
 				290A97DE1F4AB24A006BF882 /* ToolDemoViewController.m in Sources */,
 				293D465A1ECDC004007C64A9 /* LoginViewController.m in Sources */,
 				296F99F11F04F05000909CDB /* WaterFallListViewController.m in Sources */,
+				41399F6420D88FF20068B339 /* myAccountHeader.m in Sources */,
 				290A98091F4ABCF6006BF882 /* XZPickView.m in Sources */,
 				29530FAE1F60F10700D24E05 /* CardView.m in Sources */,
+				41399F6520D88FF20068B339 /* myAccountBtns.m in Sources */,
 				412EB42320D0ED3200786DE6 /* loginViewPage.m in Sources */,
 				4122163A20D23E7F00F73852 /* headerBannerView.m in Sources */,
+				41399F6620D88FF20068B339 /* myAccountViewController.m in Sources */,
 				290A981E1F4ABEB9006BF882 /* BaseTableViewCell.m in Sources */,
 				293D46011ECDA56A007C64A9 /* MainTabBarController.m in Sources */,
 				290DE9261ED19B7F00A45FF6 /* AppManager.m in Sources */,
 				2914E4931F20A4F8001C01DB /* ProfileViewController.m in Sources */,
 				2973A81A1EDEE6BE002751F0 /* GameInfo.m in Sources */,
 				290A97DD1F4AB24A006BF882 /* TagsViewController.m in Sources */,
+				4122164A20D2680900F73852 /* NavBarMainView.m in Sources */,
 				296DEA711F5D50D100C6FD00 /* TADotView.m in Sources */,
 				41CF7B9C20D2084F0050F486 /* BEMCheckBoxGroup.m in Sources */,
 				4122163620D23ADB00F73852 /* PersonListMainView.m in Sources */,
@@ -1968,6 +2055,7 @@
 				29CF33301F14B60800DB7507 /* MineLogic.m in Sources */,
 				296DEA741F5D50D100C6FD00 /* SDCycleScrollView.m in Sources */,
 				2917D2141EE02CF100E76185 /* UIButton+XYButton.m in Sources */,
+				41399F6320D88FF20068B339 /* myAccountMainView.m in Sources */,
 				29CF332D1F14B5EA00DB7507 /* MsgLogic.m in Sources */,
 				2914E48A1F20A462001C01DB /* PersonModel.m in Sources */,
 				412EB43C20D1177B00786DE6 /* ETRegularExpressionHelper.m in Sources */,
@@ -1988,6 +2076,7 @@
 				4122164020D2423D00F73852 /* mainFooterView.m in Sources */,
 				290A97FF1F4ABC12006BF882 /* NickNameLbel.m in Sources */,
 				290A98051F4ABCD9006BF882 /* IAPManager.m in Sources */,
+				4122164620D2642100F73852 /* ETGetVC.m in Sources */,
 				290A981F1F4ABEB9006BF882 /* HSBaseCellModel.m in Sources */,
 				2914E48D1F20A471001C01DB /* PersonListLogic.m in Sources */,
 				293ECC2D1EE56D1D008061A1 /* IMManager.m in Sources */,
@@ -2004,16 +2093,19 @@
 				2940C5381F0A3EC5008BC29F /* GetWaterFallListAPI.m in Sources */,
 				29CD2C6B1F30227100A0F5DC /* TableViewCell.m in Sources */,
 				41CF7B8E20D206FD0050F486 /* DecoServicesViewController.m in Sources */,
+				41399F6220D88FF20068B339 /* myAccountMenu.m in Sources */,
 				29D3C00A1F4D11A200FD3914 /* TagsButton.m in Sources */,
 				293D46111ECDAEED007C64A9 /* MineViewController.m in Sources */,
 				29530FB01F60F10700D24E05 /* YSLDraggableCardContainer.m in Sources */,
 				29FEE7681ECEC27900C81B60 /* MBProgressHUD+XY.m in Sources */,
 				4122163320D237BB00F73852 /* PersonListViewController.m in Sources */,
 				2917D2171EE02F9C00E76185 /* ShareManager.m in Sources */,
+				41CE5D7620D3B9180062113E /* mineTableDataView.m in Sources */,
 				29AD6C5C1ED3E28800B0879C /* PPNetworkHelper.m in Sources */,
 				29530FAF1F60F10700D24E05 /* YSLCardView.m in Sources */,
 				293D460B1ECDAEC6007C64A9 /* MakeFriendsViewController.m in Sources */,
 				290A980D1F4ABD00006BF882 /* SandBoxHelper.m in Sources */,
+				4122164D20D271B500F73852 /* ETButton.m in Sources */,
 				29AD6C5A1ED3E28800B0879C /* HeaderModel.m in Sources */,
 				293D45FA1ECDA4D8007C64A9 /* RootWebViewController.m in Sources */,
 				296DEA751F5D50D100C6FD00 /* UIView+SDExtension.m in Sources */,
@@ -2178,7 +2270,7 @@
 			baseConfigurationReference = A51AB222BA7ACF202B5B1330 /* Pods-UniversalApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2AJE792X89;
+				DEVELOPMENT_TEAM = BBBQL9T7EL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2195,7 +2287,7 @@
 					"$(PROJECT_DIR)/UniversalApp/ThridParty/UMSocial/SocialLibraries/WeChat",
 					"$(PROJECT_DIR)/UniversalApp/ThridParty/UMSocial/UMSocialSDKPlugin",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = alainserge.startWork;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shzhida.etogether.e--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/UniversalApp/Define";
@@ -2207,7 +2299,7 @@
 			baseConfigurationReference = 14ED69325E9FD4BDB1CA95F8 /* Pods-UniversalApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2AJE792X89;
+				DEVELOPMENT_TEAM = BBBQL9T7EL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2224,7 +2316,7 @@
 					"$(PROJECT_DIR)/UniversalApp/ThridParty/UMSocial/SocialLibraries/WeChat",
 					"$(PROJECT_DIR)/UniversalApp/ThridParty/UMSocial/UMSocialSDKPlugin",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = alainserge.startWork;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shzhida.etogether.e--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/UniversalApp/Define";

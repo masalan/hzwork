@@ -11,7 +11,6 @@
 #import "WaterFallListViewController.h"
 
 @interface ProfileViewController ()<XYTransitionProtocol>
-
 @property (nonatomic, strong) YYAnimatedImageView *headerImageView;
 @property (nonatomic, strong) UIView *detailsView;//详情view
 @property (nonatomic, strong) UIScrollView *parentView;//容器
@@ -19,7 +18,14 @@
 @end
 
 @implementation ProfileViewController
-
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.hidesBottomBarWhenPushed = YES;
+    }
+    return self;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
